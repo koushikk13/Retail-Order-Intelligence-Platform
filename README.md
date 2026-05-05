@@ -85,30 +85,6 @@ flowchart LR
 - Publish star-schema fact and dimension tables
 - Create stable views for Power BI and SQL Warehouse access
 
-## Repository structure
-
-```text
-.
-|-- data/raw/
-|   |-- orders.csv
-|   |-- shipments.csv
-|   `-- returns.csv
-|-- databricks/notebooks/
-|   |-- 00_project_setup.py
-|   |-- 01_bronze_ingestion.py
-|   |-- 02_silver_transformations.py
-|   |-- 03_gold_serving.py
-|   |-- 04_quality_and_audit.py
-|   `-- 05_semantic_model_serving.py
-|-- docs/
-|   |-- company_ready_notes.md
-|   |-- powerbi_dashboard_blueprint.md
-|   |-- powerbi_semantic_model.md
-|   |-- workflow_and_operating_model.md
-|   `-- showcase_pitch.md
-`-- src/
-    `-- generate_sample_data.py
-```
 
 ## Source tables
 
